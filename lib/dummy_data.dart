@@ -8,59 +8,80 @@ const DUMMY_CATEGORIES = const [
     id: 'c1',
     title: 'Italian',
     color: Colors.purple,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1616299908398-9af1134ad522?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGl0YWxpYW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c2',
     title: 'Quick & Easy',
     color: Colors.red,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1616174900332-1264408cf779?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cXVpY2slMjBhbmQlMjBlYXN5JTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c3',
     title: 'Hamburgers',
     color: Colors.orange,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1614891669421-964261109bb4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFtYnVyZ2Vyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c4',
     title: 'German',
     color: Colors.amber,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1519776361698-e8f0c35533e8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2VybWFuJTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c5',
     title: 'Light & Lovely',
     color: Colors.blue,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1598545794882-8c0469c4be84?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bG92ZWx5JTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c6',
     title: 'Exotic',
     color: Colors.green,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1601314002592-b8734bca6604?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGV4b2l0aWMlMjBmb29kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c7',
     title: 'Breakfast',
     color: Colors.lightBlue,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1513442542250-854d436a73f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnJlYWtmYXN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c8',
     title: 'Asian',
     color: Colors.lightGreen,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXNpYW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c9',
     title: 'French',
     color: Colors.pink,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1582509385126-c9ab0cb0449f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlbmNoJTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c10',
     title: 'Summer',
     color: Colors.teal,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bW1lciUyMGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
   Category(
     id: 'c10',
     title: 'Summer',
     color: Colors.teal,
+    backgroundImage:
+        'https://images.unsplash.com/photo-1527661591475-527312dd65f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3VtbWVyJTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   ),
 ];
-
 
 const DUMMY_MEALS = const [
   Meal(
@@ -121,7 +142,7 @@ const DUMMY_MEALS = const [
       'Bake the toast for round about 10 minutes in the oven at 200°C'
     ],
     isGlutenFree: false,
-    isVegan: false, 
+    isVegan: false,
     isVegetarian: false,
     isLactoseFree: false,
   ),
