@@ -36,9 +36,12 @@ class MealDetailScreen extends StatelessWidget {
               color: Colors.black54,
               height: 300,
               width: double.infinity,
-              child: Image.network(
-                selectedMeal.imageUrl,
-                fit: BoxFit.cover,
+              child: Hero(
+                tag: mealId,
+                child: Image.network(
+                  selectedMeal.imageUrl,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
             buildSectionTitle('Ingridients', context),
@@ -104,7 +107,7 @@ class MealDetailScreen extends StatelessWidget {
         child: Icon(
           isFavorite(mealId) ? Icons.star : Icons.star_border,
         ),
-        onPressed: ()=>toggleFavorite(mealId),
+        onPressed: () => toggleFavorite(mealId),
       ),
     );
   }
